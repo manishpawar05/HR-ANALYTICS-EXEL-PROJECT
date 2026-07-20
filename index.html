@@ -1,3 +1,40 @@
-<video controls width="600">
-  <source src="HR_Analytics_Dasboard.mp4" type="video/mp4">
-</video>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Analytics Dashboard Video</title>
+  <style>
+    /* Reset default page margins and prevent scrollbars */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000; /* Dark background behind video */
+      overflow: hidden; /* Removes browser scrollbars */
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain; /* Keeps full dashboard visible without cropping */
+    }
+  </style>
+</head>
+<body>
+
+  <video controls autoplay muted playsinline>
+    <source src="HR_Analytics_Dasboard.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
