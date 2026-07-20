@@ -28,5 +28,8 @@ Interactive Filtering: Built with dynamic slicers (Gender, Education Field, Depa
 
 Data-Driven HR Decisions: Empowers leadership to identify flight risks and optimize retention strategies.
 
+Video Link
+
+https://manishpawar05.github.io/HR-ANALYTICS-EXCEL-PROJECT/
 
 
